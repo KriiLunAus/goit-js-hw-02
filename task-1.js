@@ -1,13 +1,7 @@
-function normalizeInput(input, to) {
-  if (to === "upper") {
-    console.log(input.toUpperCase());
-  }else{
-    console.log(input.toLowerCase());
-  }
+function calculateTotal(number) {
+  let count = 0;
+  while (count < number)
+    console.log(`Count: ${count}`);
+  count += 1;
 }
-normalizeInput("This ISN'T SpaM", "upper")
-normalizeInput("Big SALE", "lower")
-normalizeInput("This ISN'T SpaM", "lower")
-normalizeInput("Big SALE", "upper")
-normalizeInput("Stay Awhile and Listen", "lower")
- normalizeInput("Stay Awhile and Listen", "upper")
+calculateTotal(18)
