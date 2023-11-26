@@ -1,7 +1,15 @@
 function calculateTotal(number) {
-  let count = 0;
-  while (count < number)
-    console.log(`Count: ${count}`);
-  count += 1;
+    let sum = 0;
+    let i = 1;
+
+    while (i <= number) {
+        sum += i;
+        i++;
+    }
+
+    return sum;
+
 }
-calculateTotal(18)
+
+console.log(calculateTotal(24))
+
